@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",
+    "cors": "^2.8.4",
     "firebase": "^5.5.6",
     "jquery": "^3.3.1",
     "mdbootstrap": "^4.5.13",
@@ -13,7 +14,9 @@
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "shoutout-sdk": "^3.0.2",
+    "twilio": "^3.23.2"
   },
   "scripts": {
     "start": "react-scripts start",

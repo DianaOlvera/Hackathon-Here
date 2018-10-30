@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import fire from './component/Fire';
 import Login from './component/Login';
 import Home from './component/Home';
+//import NavbarPage from './component/Navbar';
+//import Notify from './component/Notify';
 
 import './App.css';
 
@@ -35,7 +37,7 @@ class App extends Component {
     return (
       <div className="App">
       {this.state.user ? (<Login/>) : (<Home/>)}
-      
+      {/* <Notify/> */}
       </div>
     );
   }
